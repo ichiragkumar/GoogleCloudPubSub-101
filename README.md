@@ -5,8 +5,7 @@ This guide will walk you through setting up Google Cloud Pub/Sub step-by-step, i
 ---
 
 ## 🌟 **Step 1: Create a Service Account**
-1. Open your terminal.
-2. Run the following command to create a service account:
+
 
 ```bash
 gcloud iam service-accounts create pubsub-sa \
@@ -14,12 +13,12 @@ gcloud iam service-accounts create pubsub-sa \
 ```
 
 ✅ **Expected Output:**  
-- A confirmation message will appear showing that the service account was created.
+- A confirmation message will come
 
 ---
 
 ## 🌟 **Step 2: Get the Service Account Email**
-List all service accounts to retrieve the email of the one you just created:
+List all service accounts 
 
 ```bash
 gcloud iam service-accounts list
